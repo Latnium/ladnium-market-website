@@ -22,7 +22,7 @@ export function StablecoinsIntroSection() {
             Collateralized Stablecoins for the Digital Economy
           </h4>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Ladnium Stablecoins offer a secure, fully collateralized digital currency backed by diversified assets such as GICs and income-producing investments. Whether you're making cross-border payments or handling business-to-business transfers, Ladnium ensures stability and security.
+            Ladnium Stablecoins offer a secure, fully collateralized digital currency backed by diversified assets such as GICs and income-producing investments. Whether you&apos;re making cross-border payments or handling business-to-business transfers, Ladnium ensures stability and security.
           </p>
         </div>
 

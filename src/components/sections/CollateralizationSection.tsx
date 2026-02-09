@@ -24,7 +24,7 @@ export function CollateralizationSection() {
             </p>
             <div className="p-4 bg-primary-50 dark:bg-primary-900/20 rounded-md">
               <p className="text-sm font-medium text-primary-900 dark:text-primary-100">
-                <span className="font-bold">Key Benefit:</span> Preserve your wealth with a stable currency that's backed by solid, income-generating assets.
+                <span className="font-bold">Key Benefit:</span> Preserve your wealth with a stable currency that&apos;s backed by solid, income-generating assets.
               </p>
             </div>
           </div>
