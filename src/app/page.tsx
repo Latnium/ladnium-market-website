@@ -1,3 +1,4 @@
+import { ErrorBoundary } from '@/components/ui/ErrorBoundary';
 import { Header } from '@/components/ui/Header';
 import { Footer } from '@/components/ui/Footer';
 import { HeroSection } from '@/components/sections/HeroSection';
@@ -12,16 +13,36 @@ import { PartnersSection } from '@/components/sections/PartnersSection';
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <LiquidityRewardsSection />
-      <StablecoinsIntroSection />
-      <CollateralizationSection />
-      <UseCasesSection />
-      <TransparencySection />
-      <FutureDevelopmentsSection />
-      <PartnersSection />
-      <Footer />
+      <ErrorBoundary>
+        <Header />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <HeroSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <LiquidityRewardsSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <StablecoinsIntroSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <CollateralizationSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <UseCasesSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <TransparencySection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <FutureDevelopmentsSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <PartnersSection />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Footer />
+      </ErrorBoundary>
     </main>
   );
 }
